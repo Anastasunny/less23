@@ -1,0 +1,21 @@
+{
+  "name": "less23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/config/runner.js --reporter-html-folder=reports"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "cafe": "0.0.6",
+    "test": "^0.6.0",
+    "testcafe": "^1.17.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-multiple-html": "^1.0.0",
+    "testcafe-reporter-reportportal": "^1.0.29"
+  }
+}
